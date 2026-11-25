@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <!-- Заглушка: показывается, если у товара нет фото или файл не найден -->
+  <rect width="600" height="600" fill="#F6ECF2"/>
+  <g fill="none" stroke="#D9C4D2" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="240" y="150" width="120" height="60" rx="14"/>
+    <path d="M220 210h160v220a30 30 0 0 1-30 30H250a30 30 0 0 1-30-30z"/>
+    <path d="M260 300h80"/>
+  </g>
+  <text x="300" y="520" text-anchor="middle" font-family="Manrope, Arial, sans-serif" font-size="30" fill="#B49EAD">Фото скоро</text>
+</svg>

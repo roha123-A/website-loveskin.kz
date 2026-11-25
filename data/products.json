@@ -1,0 +1,122 @@
+[
+  {
+    "id": "rl-birch-serum",
+    "brand": "Round Lab",
+    "name": "Birch Juice Moisturizing Drop Serum",
+    "description": "Увлажняющая сыворотка с берёзовым соком, 50 мл",
+    "price": 7500,
+    "oldPrice": null,
+    "category": "Сыворотки",
+    "image": "images/rl-birch-serum.jpg",
+    "inStock": true,
+    "visible": true
+  },
+  {
+    "id": "boj-relief-sun",
+    "brand": "Beauty of Joseon",
+    "name": "Relief Sun: Rice + Probiotics SPF50+",
+    "description": "Лёгкий солнцезащитный крем с рисом и пробиотиками, 50 мл",
+    "price": 6900,
+    "oldPrice": 7900,
+    "category": "SPF",
+    "image": "images/boj-relief-sun.jpg",
+    "inStock": true,
+    "visible": true
+  },
+  {
+    "id": "cosrx-snail-cream",
+    "brand": "COSRX",
+    "name": "Advanced Snail 92 All in One Cream",
+    "description": "Восстанавливающий крем с муцином улитки, 100 г",
+    "price": 8200,
+    "oldPrice": null,
+    "category": "Кремы",
+    "image": "images/cosrx-snail-cream.jpg",
+    "inStock": true,
+    "visible": true
+  },
+  {
+    "id": "anua-heartleaf-toner",
+    "brand": "Anua",
+    "name": "Heartleaf 77% Soothing Toner",
+    "description": "Успокаивающий тонер с хауттюйнией для чувствительной кожи, 250 мл",
+    "price": 9500,
+    "oldPrice": null,
+    "category": "Тонеры",
+    "image": "images/anua-heartleaf-toner.jpg",
+    "inStock": false,
+    "visible": true
+  },
+  {
+    "id": "medicube-zero-pad",
+    "brand": "Medicube",
+    "name": "Zero Pore Pad 2.0",
+    "description": "Пэды с AHA/BHA для сужения пор, 70 шт",
+    "price": 10500,
+    "oldPrice": null,
+    "category": "Пэды",
+    "image": "images/medicube-zero-pad.jpg",
+    "inStock": true,
+    "visible": true
+  },
+  {
+    "id": "mediheal-madecassoside-mask",
+    "brand": "Mediheal",
+    "name": "Madecassoside Blemish Pad Mask",
+    "description": "Тканевая маска с мадекассосидом для проблемной кожи, 1 шт",
+    "price": 900,
+    "oldPrice": null,
+    "category": "Маски",
+    "image": "images/mediheal-madecassoside-mask.jpg",
+    "inStock": true,
+    "visible": true
+  },
+  {
+    "id": "rl-dokdo-cleanser",
+    "brand": "Round Lab",
+    "name": "1025 Dokdo Cleanser",
+    "description": "Мягкая пенка для умывания с морской водой, 150 мл",
+    "price": 6200,
+    "oldPrice": null,
+    "category": "Очищение",
+    "image": "images/rl-dokdo-cleanser.jpg",
+    "inStock": true,
+    "visible": true
+  },
+  {
+    "id": "illiyoon-ceramide-lotion",
+    "brand": "Illiyoon",
+    "name": "Ceramide Ato Lotion",
+    "description": "Лосьон для тела с керамидами для сухой кожи, 350 мл",
+    "price": 8900,
+    "oldPrice": null,
+    "category": "Для тела",
+    "image": "images/illiyoon-ceramide-lotion.jpg",
+    "inStock": true,
+    "visible": true
+  },
+  {
+    "id": "masil-hair-treatment",
+    "brand": "Masil",
+    "name": "8 Seconds Salon Hair Mask",
+    "description": "Восстанавливающая маска для повреждённых волос, 200 мл",
+    "price": 5800,
+    "oldPrice": null,
+    "category": "Волосы",
+    "image": "images/masil-hair-treatment.jpg",
+    "inStock": true,
+    "visible": true
+  },
+  {
+    "id": "romand-juicy-tint",
+    "brand": "rom&nd",
+    "name": "Juicy Lasting Tint",
+    "description": "Сияющий тинт для губ, 5,5 г",
+    "price": 4500,
+    "oldPrice": null,
+    "category": "Макияж",
+    "image": "images/romand-juicy-tint.jpg",
+    "inStock": true,
+    "visible": false
+  }
+]

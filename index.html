@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>loveskin.kz — корейская косметика в Алматы</title>
+  <meta name="description" content="Корейская косметика в Алматы: сыворотки, SPF, кремы, тонеры, маски. Бесплатная доставка по Алматы от 15 000 ₸, доставка по всему Казахстану.">
+  <meta name="theme-color" content="#FDF8FB">
+  <link rel="icon" href="images/placeholder.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- 1. Полоса сверху -->
+  <div class="topbar">Бесплатная доставка по Алматы от 15 000 ₸</div>
+
+  <!-- 2. Шапка -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo" aria-label="loveskin.kz — на главную">loveskin<span>.kz</span></a>
+
+      <nav class="nav" id="nav" aria-label="Основное меню">
+        <a href="#catalog" class="nav__link">Каталог</a>
+        <a href="#delivery" class="nav__link">Доставка</a>
+        <a href="#contacts" class="nav__link">Контакты</a>
+      </nav>
+
+      <form class="search" role="search" id="searchForm">
+        <svg class="search__icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input type="search" id="searchInput" class="search__input" placeholder="Поиск: бренд или средство" aria-label="Поиск по каталогу" autocomplete="off">
+      </form>
+
+      <div class="header__actions">
+        <button type="button" class="icon-btn menu-btn" id="menuBtn" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+        <button type="button" class="cart-btn" id="cartBtn" aria-label="Открыть корзину">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 7h12l-1 13H7L6 7Z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
+          <span class="cart-btn__label">Корзина</span>
+          <span class="cart-btn__count" id="cartCount" hidden>0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- 3. Первый экран -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="eyebrow">Корейская косметика · Алматы</p>
+          <h1 class="hero__title">Уход, который кожа&nbsp;полюбит</h1>
+          <p class="hero__subtitle">Сыворотки, SPF, кремы и маски из Кореи. Подскажем, что подойдёт именно вам, и привезём по Алматы или в любой город Казахстана.</p>
+          <div class="hero__buttons">
+            <a href="#catalog" class="btn btn--primary">Смотреть каталог</a>
+            <a href="#" class="btn btn--outline" data-wa-link data-wa-text="Здравствуйте! Хочу проконсультироваться по косметике.">
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="btn__icon"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 19Z"/></svg>
+              Написать в WhatsApp
+            </a>
+          </div>
+        </div>
+        <div class="hero__card" aria-hidden="true">
+          <span class="hero__chip">Сыворотки</span>
+          <span class="hero__chip">SPF</span>
+          <span class="hero__chip">Тонеры</span>
+          <span class="hero__chip">Пэды</span>
+          <span class="hero__chip">Маски</span>
+          <span class="hero__chip">Кремы</span>
+          <p class="hero__card-note">K-beauty для каждого дня</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Преимущества -->
+    <section class="perks" aria-label="Преимущества">
+      <div class="container perks__grid">
+        <div class="perk">
+          <svg viewBox="0 0 24 24" class="perk__icon" aria-hidden="true"><path d="M3 7h11v9H3z"/><path d="M14 10h4l3 3v3h-7"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/></svg>
+          <div>
+            <h3 class="perk__title">Доставка по Алматы</h3>
+            <p class="perk__text">Бесплатно от 15 000 ₸ в пределах зоны доставки</p>
+          </div>
+        </div>
+        <div class="perk">
+          <svg viewBox="0 0 24 24" class="perk__icon" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
+          <div>
+            <h3 class="perk__title">По всему Казахстану</h3>
+            <p class="perk__text">Курьер экспресс, эконом или Казпочта</p>
+          </div>
+        </div>
+        <div class="perk">
+          <svg viewBox="0 0 24 24" class="perk__icon" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"/></svg>
+          <div>
+            <h3 class="perk__title">Поможем с подбором</h3>
+            <p class="perk__text">Напишите в WhatsApp — подберём уход под ваш тип кожи</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Каталог -->
+    <section class="catalog section" id="catalog">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Каталог</h2>
+          <p class="catalog__count" id="catalogCount" aria-live="polite"></p>
+        </div>
+
+        <!-- Кнопки категорий рисуются из app.js (массив CATEGORIES) -->
+        <div class="filters" id="filters" role="group" aria-label="Категории"></div>
+
+        <!-- Сетка карточек: заполняется из data/products.json -->
+        <div class="grid" id="productGrid" aria-live="polite">
+          <p class="grid__state">Загружаем товары…</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Доставка -->
+    <section class="delivery section" id="delivery">
+      <div class="container">
+        <h2 class="section__title">Доставка</h2>
+        <div class="delivery__grid">
+          <article class="delivery__card">
+            <h3 class="delivery__title">По Алматы</h3>
+            <ul class="delivery__list">
+              <li>
+                <strong>Бесплатно от 15 000 ₸</strong>
+                <span>в зоне Аль-Фараби – Саина – Рыскулова – ВОАД</span>
+              </li>
+              <li>
+                <strong>от 1 500 ₸</strong>
+                <span>если сумма заказа меньше 15 000 ₸</span>
+              </li>
+            </ul>
+          </article>
+          <article class="delivery__card">
+            <h3 class="delivery__title">По Казахстану</h3>
+            <ul class="delivery__list">
+              <li>
+                <strong>Курьер экспресс — от 3 200 ₸</strong>
+                <span>2–3 дня, вес до 1 кг</span>
+              </li>
+              <li>
+                <strong>Эконом — от 3 200 ₸</strong>
+                <span>4–6 дней, вес до 3 кг</span>
+              </li>
+              <li>
+                <strong>Казпочта — 1 800 ₸</strong>
+                <span>7–10 дней</span>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 8. Футер -->
+  <footer class="footer" id="contacts">
+    <div class="container footer__grid">
+      <div>
+        <a href="#top" class="logo logo--footer">loveskin<span>.kz</span></a>
+        <p class="footer__text">Корейская косметика в Алматы с доставкой по всему Казахстану.</p>
+      </div>
+      <div>
+        <h3 class="footer__title">Контакты</h3>
+        <ul class="footer__list">
+          <li><a href="#" data-wa-link data-wa-text="Здравствуйте!">WhatsApp: +7 771 400 3351</a></li>
+          <li><a href="tel:+77714003351">Позвонить: +7 771 400 3351</a></li>
+          <li><a href="https://instagram.com/loveskin.kz" target="_blank" rel="noopener">Instagram: @loveskin.kz</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer__title">Адрес</h3>
+        <p class="footer__text">Баишева 28/5, Алматы</p>
+        <a class="footer__map" href="https://2gis.kz/almaty/search/%D0%91%D0%B0%D0%B8%D1%88%D0%B5%D0%B2%D0%B0%2028%2F5" target="_blank" rel="noopener">Открыть в 2ГИС</a>
+      </div>
+    </div>
+    <div class="container footer__bottom">© <span id="year"></span> loveskin.kz</div>
+  </footer>
+
+  <!-- КОРЗИНА: выезжает справа, на телефоне — на весь экран -->
+  <div class="overlay" id="overlay" hidden></div>
+  <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle" aria-hidden="true" inert>
+    <div class="drawer__head">
+      <button type="button" class="icon-btn drawer__back" id="drawerBack" aria-label="Назад в корзину" hidden>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+      </button>
+      <h2 class="drawer__title" id="drawerTitle">Корзина</h2>
+      <button type="button" class="icon-btn" id="drawerClose" aria-label="Закрыть корзину">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+
+    <!-- Шаг 1: список товаров -->
+    <div class="drawer__view" id="cartView">
+      <div class="drawer__body" id="cartItems"></div>
+      <div class="drawer__foot" id="cartFoot">
+        <p class="free-hint" id="freeHint"></p>
+        <div class="total-row">
+          <span>Итого</span>
+          <strong id="cartTotal">0 ₸</strong>
+        </div>
+        <button type="button" class="btn btn--primary btn--block" id="checkoutBtn">Оформить заказ</button>
+      </div>
+    </div>
+
+    <!-- Шаг 2: форма оформления -->
+    <div class="drawer__view" id="checkoutView" hidden>
+      <form class="drawer__body checkout" id="checkoutForm" novalidate>
+        <label class="field">
+          <span class="field__label">Имя *</span>
+          <input class="field__input" name="name" type="text" autocomplete="name" required>
+        </label>
+        <label class="field">
+          <span class="field__label">Телефон *</span>
+          <input class="field__input" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+7 7__ ___ __ __" required>
+        </label>
+        <label class="field">
+          <span class="field__label">Город *</span>
+          <input class="field__input" name="city" type="text" autocomplete="address-level2" value="Алматы" list="cityList" required>
+          <datalist id="cityList">
+            <option value="Алматы"><option value="Астана"><option value="Шымкент"><option value="Караганда">
+            <option value="Актобе"><option value="Атырау"><option value="Павлодар"><option value="Усть-Каменогорск">
+          </datalist>
+        </label>
+        <label class="field">
+          <span class="field__label">Адрес *</span>
+          <input class="field__input" name="address" type="text" autocomplete="street-address" placeholder="Улица, дом, квартира" required>
+        </label>
+        <label class="field">
+          <span class="field__label">Комментарий</span>
+          <textarea class="field__input" name="comment" rows="3" placeholder="Удобное время, ориентир, вопрос по товару"></textarea>
+        </label>
+        <p class="form-error" id="formError" role="alert"></p>
+      </form>
+      <div class="drawer__foot">
+        <div class="total-row">
+          <span>К оплате за товары</span>
+          <strong id="checkoutTotal">0 ₸</strong>
+        </div>
+        <p class="checkout__note" id="deliveryNote"></p>
+        <button type="submit" form="checkoutForm" class="btn btn--primary btn--block">Отправить заказ в WhatsApp</button>
+      </div>
+    </div>
+
+    <!-- Шаг 3: заказ отправлен -->
+    <div class="drawer__view" id="doneView" hidden>
+      <div class="drawer__body done">
+        <h3 class="done__title">Заказ сформирован</h3>
+        <p>Мы открыли WhatsApp с текстом заказа — осталось нажать «Отправить». Менеджер подтвердит наличие и стоимость доставки.</p>
+        <a href="#" class="btn btn--outline btn--block" id="waAgain" target="_blank" rel="noopener">Открыть WhatsApp ещё раз</a>
+        <button type="button" class="btn btn--primary btn--block" id="doneClose">Продолжить покупки</button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Короткое уведомление «Добавлено в корзину» -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
